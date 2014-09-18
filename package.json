@@ -22,18 +22,21 @@
   ],
   "main": "lib/web-assets-cdn",
   "engines": {
-      "node": ">=0.10.26",
-      "npm": ">=1.4.3"
+    "node": ">=0.10.26",
+    "npm": ">=1.4.3"
   },
   "scripts": {
     "test": "gulp test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "font-awesome": "^4.2.0",
+    "bootstrap": "^3.2.0",
+    "less-middleware": "^1.0.4"
+  },
   "devDependencies": {
     "chai": "~1.9.1",
     "gulp": "~3.8.6",
     "gulp-mocha": "~0.5"
-
   },
   "keywords": []
 }
